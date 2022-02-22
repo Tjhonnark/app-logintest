@@ -1,0 +1,30 @@
+{
+  "name": "login2",
+  "version": "1.0.0",
+  "description": "Login and Register, autenticación with passport, express and mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "login",
+    "register"
+  ],
+  "author": "Tjhonnar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "^0.0.3",
+    "connect-flash": "^0.1.1",
+    "ejs-mate": "^3.0.0",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
